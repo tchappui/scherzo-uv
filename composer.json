@@ -1,0 +1,27 @@
+{
+    "name": "tchappui/uv",
+    "description": "UV is a minimalist plain PHP framework supporting template inheritance, developed and used Scherzo web framework. For a usage example, let's have a look at the given index.php file and at the templates directory.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thierry Chappuis",
+            "email": "thierry@chappuis.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Scherzo\\Component\\Templating\\UView\\": "lib/UView/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Scherzo\\Tests\\Unit\\": "tests/unit/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^2.3",
+        "codeception/mockery-module": "^0.2.3"
+    }
+}
